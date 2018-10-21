@@ -1,0 +1,14 @@
+function order(drinks) {
+  if(drinks == "coffee") {
+    return"20";
+  }
+  if(drinks == "milktea"){
+      return"15";
+  }else{
+    return"0";
+  }
+}
+
+console.log(order("coffee"))
+console.log(order("wine"))
+console.log(order("milktea"))
